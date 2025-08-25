@@ -1,7 +1,13 @@
 body {
-    color: #d2d4d2;
+    background-color: #e6ebe4;
 }
 
 main {
-    color: aliceblue;
+    background-color: white;
+    justify-self: center;
+    padding: 30px;
+}
+
+h1 {
+    margin: 10px;
 }
