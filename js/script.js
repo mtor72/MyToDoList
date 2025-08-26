@@ -1,16 +1,13 @@
 const list = document.querySelector('ul');
 const input = document.querySelector('input');
+const buttonNew = document.querySelector('button.new');
 
-let listItem = document.createElement('li');
 const btn = document.createElement('button');
 
-listItem.innerText = 'walk the dog';
-
-list.appendChild(listItem);
-
-document.querySelector('button').addEventListener('click', () => {
-    listItem = document.createElement('li');
+buttonNew.addEventListener('click', () => {
+    let listItem = document.createElement('li');
     listItem.innerText = input.value;
     list.appendChild(listItem);
-    list.appendChild(btn);
+    input.value = "";
+    input.focus();
 });
