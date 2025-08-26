@@ -12,4 +12,5 @@ document.querySelector('button').addEventListener('click', () => {
     listItem = document.createElement('li');
     listItem.innerText = input.value;
     list.appendChild(listItem);
+    list.appendChild(btn);
 });

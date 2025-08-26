@@ -5,9 +5,28 @@ body {
 main {
     background-color: white;
     justify-self: center;
-    padding: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
+    justify-self: center;
     margin: 10px;
+    padding: 10px;
+}
+
+input {
+    font-size: 20px;
+    margin: 5px;
+}
+
+button {
+    font-size: 20px;
+    background-color: #8db1eb;
+    margin: 5px;
+}
+
+ul {
+    font-size: 20px;
 }
